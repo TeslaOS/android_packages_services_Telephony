@@ -604,6 +604,7 @@ public class TelephonyConnectionService extends ConnectionService {
             int phoneId = 0; // default phoneId
             try {
                 phoneId = mExtTelephony.getPhoneIdForECall();
+                return PhoneFactory.getPhone(phoneId);
             } catch (RemoteException ex) {
                 Log.e(this, ex, "Exception : " + ex);
             } catch (NullPointerException ex) {
