@@ -30,7 +30,7 @@
 
     <!-- Sprint MWI Quirk: Phantom message wait indicator workaround -->
     <string name="mwi_notification_title">Message wait indicator</string>
-    <string name="mwi_notification_summary">Show message wait indicator voicemail notifications</string>
+    <string name="mwi_notification_summary">Show message wait indicator voicemail notifications (restart required)</string>
 
     <!-- My Phone Number -->
     <string name="phone_number_label">My phone number</string>
@@ -233,4 +233,8 @@
     <!-- Mobile network settings, COLP -->
     <string name="connected_line_identification_title">Connected line identification</string>
     <string name="connected_line_identification_summary">Disable this option if the numbers of the recipients don\'t show up in the call history</string>
+
+    <!-- Network mode picker dialog title -->
+    <string name="choose_network_mode_title">Choose network mode</string>
+    <string name="choose_network_mode_system_default">System default</string>
 </resources>

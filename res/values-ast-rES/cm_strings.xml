@@ -23,7 +23,6 @@
   <string name="blacklist_summary_disabled">Desactivada</string>
   <!-- Sprint MWI Quirk: Phantom message wait indicator workaround -->
   <string name="mwi_notification_title">Indicador de mensaxes n\'espera</string>
-  <string name="mwi_notification_summary">Amosar una notificación pa los mensaxes n\'espera del buzón de voz</string>
   <!-- My Phone Number -->
   <string name="phone_number_label">El mio númberu de teléfonu</string>
   <!-- Toasts for various transient network events -->
@@ -140,4 +139,6 @@
   <string name="exportAllcontatsFailed">Fallu al esportar tolos contautos de la tarxeta SIM</string>
   <string name="exportAllcontatsNoContacts">Nun s\'atoparon contautos qu\'esportar a la tarxeta SIM</string>
   <!-- Permission to modify network mode via intent -->
+  <!-- Mobile network settings, COLP -->
+  <!-- Network mode picker dialog title -->
 </resources>

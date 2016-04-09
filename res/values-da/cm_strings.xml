@@ -29,7 +29,7 @@
   <string name="blacklist_summary">Du vil ikke modtage indgående opkald eller beskeder fra telefonnumre på den blokeret opkaldsliste</string>
   <!-- Sprint MWI Quirk: Phantom message wait indicator workaround -->
   <string name="mwi_notification_title">Indikator for ventende besked</string>
-  <string name="mwi_notification_summary">Vis notifikationer for indikator for ventende beskeder på voicemail</string>
+  <string name="mwi_notification_summary">Vis besked indikator for afventende voicemail-notifikationer (genstart påkrævet)</string>
   <!-- My Phone Number -->
   <string name="phone_number_label">Mit telefonnummer</string>
   <string name="phone_number_summary">Angiv telefonnummeret for denne enhed</string>
@@ -186,4 +186,10 @@
   <!-- Permission to modify network mode via intent -->
   <string name="perm_change_mobile_network">ændre netværkstilstand</string>
   <string name="perm_change_mobile_network_desc">Tillader en app at ændre den nuværende netværkstilstand.</string>
+  <!-- Mobile network settings, COLP -->
+  <string name="connected_line_identification_title">Tilslutningsidentifikation</string>
+  <string name="connected_line_identification_summary">Deaktivér denne indstilling, hvis antallet af modtagerne ikke vises i opkaldshistorikken</string>
+  <!-- Network mode picker dialog title -->
+  <string name="choose_network_mode_title">Vælg netværkstilstand</string>
+  <string name="choose_network_mode_system_default">Systemstandard</string>
 </resources>

@@ -29,7 +29,6 @@
   <string name="blacklist_summary">Вы не будете получать входящие вызовы или сообщения от телефонных номеров из черного списка</string>
   <!-- Sprint MWI Quirk: Phantom message wait indicator workaround -->
   <string name="mwi_notification_title">Индикатор ожидания сообщения</string>
-  <string name="mwi_notification_summary">Показывать индикатор ожидания сообщения уведомлений голосовой почты</string>
   <!-- My Phone Number -->
   <string name="phone_number_label">Мой номер телефона</string>
   <string name="phone_number_summary">Задать телефонный номер для этого устройства</string>
@@ -186,4 +185,10 @@
   <!-- Permission to modify network mode via intent -->
   <string name="perm_change_mobile_network">изменить режим сети</string>
   <string name="perm_change_mobile_network_desc">Приложение сможет изменять текущий режим сети.</string>
+  <!-- Mobile network settings, COLP -->
+  <string name="connected_line_identification_title">Идентификация абонента</string>
+  <string name="connected_line_identification_summary">Отключите этот параметр, если в истории вызовов не отображаются номера абонентов</string>
+  <!-- Network mode picker dialog title -->
+  <string name="choose_network_mode_title">Выбор режима сети</string>
+  <string name="choose_network_mode_system_default">По умолчанию (системн.)</string>
 </resources>
