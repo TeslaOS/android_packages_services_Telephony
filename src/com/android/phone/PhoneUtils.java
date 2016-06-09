@@ -77,6 +77,7 @@ import java.util.List;
  * Misc utilities for the Phone app.
  */
 public class PhoneUtils {
+    public static final String EMERGENCY_ACCOUNT_HANDLE_ID = "E";
     private static final String LOG_TAG = "PhoneUtils";
     private static final boolean DBG = (PhoneGlobals.DBG_LEVEL >= 2);
 
@@ -128,6 +129,12 @@ public class PhoneUtils {
 
     /** Noise suppression status as selected by user */
     private static boolean sIsNoiseSuppressionEnabled = true;
+
+    /** Define serviceClass type for CallForward */
+    public static final int SERVICE_CLASS_VOICE = 1;
+    public static final int SERVICE_CLASS_VIDEO = 2;
+    /** Extra key to identify the service class voice or video */
+    public static final String SERVICE_CLASS = "service_class";
 
     private static class FgRingCalls {
         private Call fgCall;
@@ -2417,7 +2424,8 @@ public class PhoneUtils {
             Phone phone, String prefix, boolean isEmergency) {
         // TODO: Should use some sort of special hidden flag to decorate this account as
         // an emergency-only account
-        String id = isEmergency ? "E" : prefix + String.valueOf(phone.getSubId());
+        String id = isEmergency ? EMERGENCY_ACCOUNT_HANDLE_ID : prefix +
+                String.valueOf(phone.getSubId());
         return makePstnPhoneAccountHandleWithPrefix(id, prefix, isEmergency);
     }
 

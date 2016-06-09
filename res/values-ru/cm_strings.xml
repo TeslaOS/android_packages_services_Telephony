@@ -29,6 +29,7 @@
   <string name="blacklist_summary">Вы не будете получать входящие вызовы или сообщения от телефонных номеров из черного списка</string>
   <!-- Sprint MWI Quirk: Phantom message wait indicator workaround -->
   <string name="mwi_notification_title">Индикатор ожидания сообщения</string>
+  <string name="mwi_notification_summary">Показывать индикатор ожидания сообщения уведомлений голосовой почты (требуется перезапуск)</string>
   <!-- My Phone Number -->
   <string name="phone_number_label">Мой номер телефона</string>
   <string name="phone_number_summary">Задать телефонный номер для этого устройства</string>
@@ -191,4 +192,11 @@
   <!-- Network mode picker dialog title -->
   <string name="choose_network_mode_title">Выбор режима сети</string>
   <string name="choose_network_mode_system_default">По умолчанию (системн.)</string>
+  <!-- Error message displayed on SIM Network Depersonalization panel with # of retries remaining -->
+  <string name="unlock_failed_remaining_retries">Неудачный запрос на разблокировку, осталось %1$d попыток.</string>
+  <!-- Call forward: IMS: Media tag support -->
+  <string name="labelCFType">Настройки переадресации вызовов</string>
+  <string name="labelCFVoice">Голос</string>
+  <string name="labelCFVideo">Видео</string>
+  <string name="call_forward_option">Параметры переадресации вызовов</string>
 </resources>

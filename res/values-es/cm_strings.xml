@@ -29,6 +29,7 @@
   <string name="blacklist_summary">No recibirás llamadas ni mensajes de los números incluidos en la lista de contactos bloqueados</string>
   <!-- Sprint MWI Quirk: Phantom message wait indicator workaround -->
   <string name="mwi_notification_title">Notificación de buzón de voz</string>
+  <string name="mwi_notification_summary">Mostrar indicador de espera para las notificaciones del buzón de voz (requiere reinicio)</string>
   <!-- My Phone Number -->
   <string name="phone_number_label">Mi número de teléfono</string>
   <string name="phone_number_summary">Establecer el número asociado a este dispositivo</string>
@@ -191,4 +192,11 @@
   <!-- Network mode picker dialog title -->
   <string name="choose_network_mode_title">Elegir el modo de red</string>
   <string name="choose_network_mode_system_default">Por defecto del sistema</string>
+  <!-- Error message displayed on SIM Network Depersonalization panel with # of retries remaining -->
+  <string name="unlock_failed_remaining_retries">Petición de desbloqueo incorrecta, quedan %1$d intentos.</string>
+  <!-- Call forward: IMS: Media tag support -->
+  <string name="labelCFType">Configuración del desvío de llamadas</string>
+  <string name="labelCFVoice">Voz</string>
+  <string name="labelCFVideo">Vídeo</string>
+  <string name="call_forward_option">Opciones del desvío de llamadas</string>
 </resources>
